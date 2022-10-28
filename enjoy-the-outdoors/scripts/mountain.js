@@ -23,16 +23,16 @@ function loadMountainInfo() {
 }
 
 function buildMountainCard(section, mountain) {
-  //card
+  //inside////////
   const div = document.createElement("div");
   div.className = "card";
-  //inside 
+  /////////////
   section.appendChild(div);
-  //image
+  //image goes here
   let cardImg = document.createElement("img");
   cardImg.className = "card-img-top";
   cardImg.alt = mountain.name;
-  cardImg.src = "images/" + mountain.img;
+  cardImg.src = "image/" + mountain.name;
 
   //title
   let cardTitle = document.createElement("h5");
@@ -44,7 +44,7 @@ function buildMountainCard(section, mountain) {
   //heigh
   let elevation = document.createElement("p");
   elevation.innerText = `${mountain.elevation} ft`;
-  //info
+  //information
   let addInfo = document.createElement("p");
   addInfo.innerText = `Effort: ${mountain.effort}
     Coordinates: ${mountain.coords.lat}, ${mountain.coords.lng}`;
@@ -52,7 +52,7 @@ function buildMountainCard(section, mountain) {
   let removeBtn = document.createElement("button");
   removeBtn.className = "btn btn-primary";
   removeBtn.innerText = "remove";
-  //button function
+  //button2 (action)
   function removeCard() {
     section.removeChild(div);
   }

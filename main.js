@@ -1,3 +1,5 @@
+"use this Lianna"
+
 const carouselInner = document.querySelector(".carousel-inner");
 
 function buildCarouselImage(section, image) {
@@ -16,8 +18,8 @@ function loadFirstImage(carouselInner) {
   carouselInner.appendChild(fCarouDiv);
   let carouselImage = document.createElement("img");
   carouselImage.className = "d-block w-100";
-  carouselImage.src = "images/Zeacliff-StoryImg_2.jpg";
-  fCarouDiv.alt = "Zeacliff-StoryImg_2";
+  carouselImage.src = "images/Whiteface-StoryImg.jpg";
+  fCarouDiv.alt = "OwlsHead-StoryImg.jpg";
   fCarouDiv.appendChild(carouselImage);
 }
 
