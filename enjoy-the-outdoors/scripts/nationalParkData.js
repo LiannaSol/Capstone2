@@ -63,7 +63,7 @@ const nationalParksArray = [
     Address: "290 Broadway, 1st Floor",
     City: "New York",
     State: "New York",
-    ZipCode: 10007,
+    ZipCode: 10007, 
     Phone: "(212) 637-2019",
     Fax: "(212) 227-2026",
     Latitude: 40.7150514,

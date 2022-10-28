@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* top background */
+.navbar {
+font-size: 2rem;
+background-color : #0e0d0d
+}
+/*-----------------------*/
+
+/* Main */
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.navbar-brand:hover {
+color: rgb(61, 4, 4);
+
+}
+
+.nav-item a{
+color: rgb(255, 255, 255);
+}
+.nav-item a:hover {
+    color: rgb(139, 139, 139);
+    }
+    
+ li.dropdown a.dropdown-item {
+    color: #0e0d0d;
+}
+
+.main {
+    background-size: cover;
+    background: url(./enjoy-the-outdoors/images/Hancock-StoryImage_2.jpg);
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    }
+    
+    
+    .main h1 {
+        font-size: 10rem;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+       
+    }
+/*------------------------------*/
+
+/* main buttons */
+.btn-group{ 
+    width: 300px;
+    height: 20%;
+    align-items: center;
+    position: relative;
+    display:flexbox;  
+    justify-content: center;
+    left: 40%;
+    background-color: black;
+    font-size: 2.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btn2{
+    font-size: 2.0rem;
+    background: #757171;
+   border: none;
+   outline: none;
+ 
+   
+    }
+    
+
+    .btn2:hover{
+    color: black;
+    background-color: rgb(179, 178, 177);
+    }
+   
+    .container2 {
+    background: #757171;
+}
+
+/*-------------------------*/
+
+
+/* About Us */
+.iconic {
+    text-align: center;
+    background-color:rgba(183, 180, 180, 0.88);
+    font-family: cursive;
+}
+
+
+
+
+
+
