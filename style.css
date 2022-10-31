@@ -35,7 +35,7 @@ color: rgb(255, 255, 255);
 
 .main {
     background-size: cover;
-    background: url(./enjoy-the-outdoors/images/Hancock-StoryImage_2.jpg);
+    background: url(./images/Hancock-StoryImage_2.jpg);
      height: 100vh;
      width: 100%;
      display: flex;

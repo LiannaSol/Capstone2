@@ -3,11 +3,7 @@
     <div class="row pt-5 ">
       <div class="col-lg-6 pt-5 text-center">
 
-  <select id="select">
-    <option value="select">Select</option>
-    <option value="default">Parks By Location</option>
-    <option value="default">Mountains</option>
-  </select>
+  
 </div>
 </div>
 </div>
@@ -92,3 +88,7 @@ background-color: antiquewhite;
   top: 50%;
   left: 40%;
   }
+
+
+  <div id="card-section" class="container2">
+  </div>

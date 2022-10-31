@@ -30,9 +30,9 @@ function buildMountainCard(section, mountain) {
   section.appendChild(div);
   //image goes here
   let cardImg = document.createElement("img");
-  cardImg.className = "card-img-top";
+cardImg.className = "section-img-top";
   cardImg.alt = mountain.name;
-  cardImg.src = "image/" + mountain.name;
+ cardImg.src = "image/" + mountain.name;
 
   //title
   let cardTitle = document.createElement("h5");
