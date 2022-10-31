@@ -56,8 +56,8 @@ background-color: antiquewhite;
   align-items: center;
   background-color: antiquewhite;
 }
-
-
+const combineMountains = (...names) => Mountains.join(' ');
+}
 
 <section class="main2">
   <div class="container2">

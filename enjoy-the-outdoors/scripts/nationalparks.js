@@ -15,13 +15,13 @@ function loadSearchType() {
   stateTerriField.appendChild(option);
 
   if (byLocationField.checked) {
-    labelChange.innerHTML = "States";
+    labelChange.innerHTML = "State";
     locationsArray.forEach((location) => {
       let newOption = new Option(location, location);
       stateTerriField.appendChild(newOption);
     });
   } else if (byTypeField.checked) {
-    labelChange.innerHTML = "Park By Type";
+    labelChange.innerHTML = "Type";
     parkTypesArray.forEach((park) => {
       let newOption = new Option(park, park);
       stateTerriField.appendChild(newOption);
